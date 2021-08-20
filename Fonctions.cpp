@@ -75,7 +75,7 @@ void afficher_allprocess(processList* L)
 {
 	for(int i=0; i < L->process_nbr; i++ )
 	{
-		printf("Process %c : \nD. execution = %d, arrivee = %d, execution reelle = %d, statut = %d, date fin = %d , Priorité = %d \n \n", 
+		printf("Process %c : \nD. execution = %d, arrivee = %d, execution reelle = %d, statut = %d, date fin = %d , Priorite = %d \n \n", 
 		L->allProcess[i].process_name, L->allProcess[i].exec_time, 
 		L->allProcess[i].arrival_date, L->allProcess[i].real_exec_time,
 		L->allProcess[i].process_status, L->allProcess[i].end_date,L->allProcess[i].priorite);
