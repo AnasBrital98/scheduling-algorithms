@@ -11,30 +11,11 @@ int main(int argv,char* argc[])
 {
 	system("color 0A");
 	processList list;
-	/*printf("\n\nFCFS     :  \n");
-	initprocessList(&list);
-	start_FCFS_processor(&list);
-	afficher(&list);
-	printf("\n\nSRT      :   \n");
-	initprocessList(&list);
-	start_SRT_processor(&list);
-	afficher(&list);
-	printf("\n\nSPF      :    \n");
-	initprocessList(&list);
-	start_SPF_processor(&list);
-	afficher(&list);
-	printf("\n\nPlus prioriaire En Premiaire    :   \n");
-	initprocessList(&list);
-	start_PRIO_processor(&list);
-	afficher(&list);
-	printf("\n\nROUND ROBIN       :   \n");
-	initprocessList(&list);
-	start_RR_processor(&list);
-	afficher(&list);*/
+	
 	int choix;
 	bool sortie= false;
 	do{
-		printf(" 						Menu\n");
+		printf(" 		Menu\n");
 		printf("         1 - FCFS\n");
 		printf("         2 - SRT\n");
 		printf("         3 - SPF\n");
